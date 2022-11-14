@@ -1,0 +1,34 @@
+package chapter04.ex03;
+
+public class For_Statement02 {
+
+	public static void main(String[] args) {
+		// For문의 특수한 형태 (무한 루프)
+		// --- For 문에서 조건이 생략될 경우 무한 루프
+		// --- 초기식, 조건, 증감식이 모두 빠진 경우도 무한루프
+		/*
+		 * 
+		 
+		for (int i = 0; ; i++) {    //조건이 생략되면 무한루프
+			System.out.print(i + " ");
+		}
+*/
+		/* 
+		 
+		for (;; ) {
+			System.out.println("무한루프");
+		}
+			*/
+		
+		System.out.println("==============================================");
+		//무한루프 탈출 방법 break;
+		for (int i = 0; ; i++) {
+			System.out.println(i + " ");
+			if (i > 100) {
+				break;		//break; 는 if 조건과 같이 사용한다.
+			}
+		}
+		
+	}
+
+}
