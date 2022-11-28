@@ -63,7 +63,14 @@ public class Ex01 {
 		gu c3 = new g2();
 		c3.run();
 		c3.eat();
-
+		
+		//gu c4 = new Car();
+		//c4.run();
+		//c4.eat();
+		
+		//g2 c4 = new gu();
+		//c4.eat();
+		//c4.run();
 	}
 
 }
