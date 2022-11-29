@@ -186,7 +186,7 @@ class Tiger  implements Animal1, Animal2 {
 		System.out.println("냥냥냥냥");
 	}	
 	
-	.........
+	......... 나머지는 체우기
 	
 	
 	Public class Ex01{
